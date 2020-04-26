@@ -40,7 +40,7 @@ When clicked:
 
 ![](img/e.png)
 
-+ The current url is suggested as link
++ f you press cancel, The current url is suggested as link
 
 ![](img/f.png)
 
@@ -52,7 +52,7 @@ When clicked:
 
 ![](img/h.png)
 
-+ The title is displayed, you can then select, copy, and paste it
++ The markdown link is displayed, you can then select, copy, and paste it
 
 ![](img/i.png)
 
