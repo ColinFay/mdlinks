@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Markdown Links", 
+    "description": "Create Markdown Links from Current Webpage",
+    "version": "1.0",
+    "author": "Colin Fay",
+    "background" : {
+        "scripts" : ["background.js"]
+      },
+    "browser_action": {
+        "default_icon": "mdlinks.png",
+        "default_title": "Create Markdown Links"
+    },
+    "permissions": [
+        "activeTab"
+     ]
+}
