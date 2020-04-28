@@ -62,8 +62,11 @@ if (confirm("Create a list entry?")) {
 
 var md = liste + "[" + tit + "](" + loc + ")";
 
-chrome.runtime.sendMessage({ md }, function(response) {
-    console.log(response);
-});
-
-alert(md);
+if (confirm("Copy to clipboard?")) {
+    chrome.runtime.sendMessage({ md }, function(response) {
+        console.log(response);
+    });
+    alert("Copied!");
+} else {
+    alert(md);
+};
