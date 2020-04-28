@@ -62,7 +62,8 @@ if (confirm("Create a list entry?")) {
 
 var md = liste + "[" + tit + "](" + loc + ")";
 
+chrome.runtime.sendMessage({ md }, function(response) {
+    console.log(response);
+});
+
 alert(md);
-
-
-
